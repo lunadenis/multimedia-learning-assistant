@@ -17,7 +17,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 PDF_PATH = Path(__file__).parent / "base_conocimiento_multimedia_learning_assistant.pdf"
 
 # Modelo de lenguaje usado para redactar la respuesta final.
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3.5-flash"
 
 # Si la similitud entre la pregunta y el documento es demasiado baja,
 # el agente reconoce que no encontró suficiente información.
